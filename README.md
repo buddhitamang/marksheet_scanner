@@ -26,3 +26,17 @@ The **Mark Sheet Scanner App** is a Flutter-based application that utilizes **Go
 
    git clone https://github.com/buddhitamang/marksheet_scanner
    cd mark_sheet_scanner_app
+
+2. **Install Dependencies**
+
+   flutter pub get
+
+3.  **Configure Permissions**
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+## **Running the app**
+
+   flutter run
